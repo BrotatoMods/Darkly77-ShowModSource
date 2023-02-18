@@ -1,0 +1,22 @@
+{
+	"name": "ShowModSource",
+	"namespace": "Darkly77",
+	"version_number": "1.0.0",
+	"description": "Shows where modded content comes from. Works with characters, items, weapons, upgrades, and challenges",
+	"website_url": "https://github.com/BrotatoMods/Darkly77-ShowModSource",
+	"dependencies": [
+		"Darkly77-ContentLoader"
+	],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": [
+				"Darkly77",
+				"KANA"
+			],
+			"compatible_mod_loader_version": "4.1.0",
+			"compatible_game_version": ["0.8.0.3"],
+			"config_defaults": {}
+		}
+	}
+}
