@@ -1,7 +1,7 @@
 {
 	"name": "ShowModSource",
 	"namespace": "Darkly77",
-	"version_number": "1.0.0",
+	"version_number": "1.0.1",
 	"description": "Shows where modded content comes from. Works with characters, items, weapons, upgrades, and challenges",
 	"website_url": "https://github.com/BrotatoMods/Darkly77-ShowModSource",
 	"dependencies": [
