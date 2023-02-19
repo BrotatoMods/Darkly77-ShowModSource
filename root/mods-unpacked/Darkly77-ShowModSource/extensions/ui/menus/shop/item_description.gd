@@ -19,7 +19,7 @@ func set_item(item_data:ItemParentData):
 # =============================================================================
 
 func _showmodsrc_apply_mod_name(item_data:ItemParentData) -> void:
-	var mod_name = ContentLoader_ShowModSrc.lookup_modname_by_itemdata(item_data) # requires ContentLaoder v6.0.0+
+	var mod_name = ContentLoader_ShowModSrc.lookup_modid_by_itemdata(item_data) # requires ContentLaoder v6.0.0+
 	var default_text = ""
 
 	# Uncomment to debug
@@ -96,7 +96,7 @@ func _showmodsrc_get_img_bbcode() -> String:
 # with the bottom-right of the container. Maybe someone who knows more about
 # this can fix it 🤷‍♂️
 func _showmodsrc_scene_edit_version(item_data:ItemParentData) -> void:
-	var mod_name = ContentLoader_ShowModSrc.lookup_modname_by_itemdata(item_data)
+	var mod_name = ContentLoader_ShowModSrc.lookup_modid_by_itemdata(item_data)
 	var default_text = ""
 
 	# Uncomment to debug
