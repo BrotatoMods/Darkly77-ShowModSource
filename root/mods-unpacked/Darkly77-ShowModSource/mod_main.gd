@@ -11,16 +11,16 @@ var ext_dir = ""
 # =============================================================================
 
 func _init(modLoader = ModLoader):
-	ModLoaderUtils.log_info("Init", SHOWMODSRC_LOG)
-	dir = modLoader.UNPACKED_DIR + MOD_DIR
+	ModLoaderLog.info("Init", SHOWMODSRC_LOG)
+	dir = ModLoaderMod.get_unpacked_dir() + MOD_DIR
 	ext_dir = dir + "extensions/"
 
-	modLoader.install_script_extension(ext_dir + "ui/menus/shop/item_description.gd")
-	modLoader.install_script_extension(ext_dir + "ui/menus/ingame/challenge_ui.gd")
+	ModLoaderMod.install_script_extension(ext_dir + "ui/menus/shop/item_description.gd")
+	ModLoaderMod.install_script_extension(ext_dir + "ui/menus/ingame/challenge_ui.gd")
 
 
 func _ready():
-	ModLoaderUtils.log_info("Ready", SHOWMODSRC_LOG)
+	ModLoaderLog.info("Ready", SHOWMODSRC_LOG)
 	# _showmodsrc_extend_item_panel_ui()
 
 

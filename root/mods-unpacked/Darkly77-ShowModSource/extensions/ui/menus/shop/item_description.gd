@@ -23,7 +23,7 @@ func _showmodsrc_apply_mod_name(item_data:ItemParentData) -> void:
 	var default_text = ""
 
 	# Uncomment to debug
-	#ModLoaderUtils.log_debug("[ContentLoader] mod_name=" + mod_name, SHOWMODSRC_LOG)
+	#ModLoaderLog.debug("[ContentLoader] mod_name=" + mod_name, SHOWMODSRC_LOG)
 
 	# This mod_name means that the item wasn't added via ContentLoader
 	if mod_name == "CL_Notice-NotFound":
@@ -100,7 +100,7 @@ func _showmodsrc_scene_edit_version(item_data:ItemParentData) -> void:
 	var default_text = ""
 
 	# Uncomment to debug
-	#ModLoaderUtils.log_debug("[ContentLoader] mod_name=" + mod_name, SHOWMODSRC_LOG)
+	#ModLoaderLog.debug("[ContentLoader] mod_name=" + mod_name, SHOWMODSRC_LOG)
 
 	# This mod_name means that the item wasn't added via ContentLoader
 	if mod_name == "CL_Notice-NotFound":
